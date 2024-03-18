@@ -138,7 +138,7 @@
 </template>
 
 <script lang="ts">
-const naceRegexp = /[A-U]([0-9][0-9]?)?(.[0-9][0-9]?)?(.[0-9][0-9]?)?/;
+const naceRegexp = /^[A-U]\d{0,2}(\.\d{1,2})?(\.\d{1,2})?$/;
 
 export default {
   name: "AddCompanyComponent",
