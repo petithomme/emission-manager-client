@@ -73,7 +73,7 @@
             <div class="col-span-2 sm:col-span-1">
               <label
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                >Scope 1 emission</label
+                >Scope 1 emission (in tCO2e)</label
               >
               <input
                 v-model="emissionScope1"
@@ -84,7 +84,7 @@
             <div class="col-span-2 sm:col-span-1">
               <label
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                >Scope 2 emission</label
+                >Scope 2 emission (in tCO2e)</label
               >
               <input
                 v-model="emissionScope2"
@@ -95,7 +95,7 @@
             <div class="col-span-2 sm:col-span-1">
               <label
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                >Scope 3 emission</label
+                >Scope 3 emission (in tCO2e)</label
               >
               <input
                 v-model="emissionScope3"

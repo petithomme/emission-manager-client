@@ -24,19 +24,19 @@
           </th>
           <th scope="col" class="px-6 py-3">
             <CompanyTableHeadComponent
-              :name="'Emission Scope 1'"
+              :name="'Emission Scope 1 (in tCO2e)'"
               :order-type="'es1'"
             />
           </th>
           <th scope="col" class="px-6 py-3">
             <CompanyTableHeadComponent
-              :name="'Emission Scope 2'"
+              :name="'Emission Scope 2 (in tCO2e)'"
               :order-type="'es2'"
             />
           </th>
           <th scope="col" class="px-6 py-3">
             <CompanyTableHeadComponent
-              :name="'Emission Scope 3'"
+              :name="'Emission Scope 3 (in tCO2e)'"
               :order-type="'es3'"
             />
           </th>
